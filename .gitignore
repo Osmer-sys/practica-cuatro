@@ -1,0 +1,42 @@
+# Archivos binarios y temporales de .NET
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+books.db-shm
+books.db-wal
+books.db
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Archivos de dependencias y paquetes
+*.nuget
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+# Archivos de configuración de Rider/VSCode
+.idea/
+*.iml
+.vscode/
+
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Secretos de usuario
+secrets.json
+.env
+
+# Publicaciones
+/app/publish/
